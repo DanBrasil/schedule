@@ -4,7 +4,7 @@ import Icon from "../icon";
 
 const meta = {
   title: "exemplo",
-  component: Lala,
+  component: Lala, 
   parameters: {
     layout: "centered",
   },
@@ -17,8 +17,8 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    row: 10,
-    column: 5,
+    row: 5,
+    column: 7,
     children: Icon(),
   },
 };
