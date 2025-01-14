@@ -17,9 +17,9 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    title: "FINISH",
-    row: 10,
-    column: 5,
+    title: "Calendar",
+    row: 5,
+    column: 7,
     children: Icon(),
   },
 };
