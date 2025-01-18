@@ -36,6 +36,7 @@ const Table = ({ row, column }: ITable) => {
               style={{
                 border: "1px solid black",
                 padding: "20px",
+                margin: "auto",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -66,12 +67,12 @@ const Table = ({ row, column }: ITable) => {
                         alignItems: "center",
                         width: "50px",
                         height: "50px",
+                        margin: "auto",
                       }}
                       key={`table-cell-${rowKey}-${columnKey}`}
                     >
                       <div
                         style={{
-                          border: "1px solid black",
                           padding: "20px",
                           display: "flex",
                           justifyContent: "center",
